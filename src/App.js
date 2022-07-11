@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-function Page() {
-  return (
-    <>
-    <header>
-      <nav>
-        <img src={logo} alt='React JS logo' className='img' />
-      </nav>
-    </header>
+const Header = () => (
+  <header>
+    <nav>
+      <img src={logo} alt='React JS logo' className='img' />
+    </nav>
+  </header>
+)
+
+const MainContent = () => (
+  <>
     <h1>Reasons I'm excited to learn React</h1>
     <ol className='bold-text'>
       <li>Was first released in 2013</li>
@@ -17,9 +19,22 @@ function Page() {
       <li>Is maintained by Facebook</li>
       <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ol> 
-    <footer>
-      <p>© 20xx Shrimberg development. All rights reserved.</p>
-    </footer>
+  </>
+)
+
+const Footer = () => (
+  <footer>
+    <p>© 20xx Shrimberg development. All rights reserved.</p>
+  </footer>
+  
+)
+
+function Page() {
+  return (
+  <>
+    <Header />
+    <MainContent />
+    <Footer />
   </>
   )
 }
