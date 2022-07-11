@@ -1,0 +1,30 @@
+.navbar {
+  background: #21222A;
+  margin: 0;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.react-logo {
+  width: 28.93px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.react-title {
+  border: 1px red solid;
+  margin-left: 0.625em;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 1.39rem;
+}
+
+.nav-links {
+  font-weight: 600;
+  font-size: 1rem;
+}

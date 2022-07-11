@@ -1,5 +1,9 @@
+import './main.css'
+
 const Main = () => (
-  <h1>Main goes here</h1>
+  <div className='main'>
+    <h1>Main goes here</h1>
+  </div>
 )
 
 export default Main
