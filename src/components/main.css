@@ -3,6 +3,11 @@
   padding: 2em;
 }
 
+.list-item::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
+
 .list-item + .list-item {
   margin-top: 1em;
 }
