@@ -1,3 +1,8 @@
 .main {
   background: #282D35;
+  padding: 2em;
+}
+
+.list-item + .list-item {
+  margin-top: 1em;
 }
