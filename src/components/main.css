@@ -1,6 +1,9 @@
 .main {
   background: #282D35;
   padding: 2em;
+  background-image: url('../logo.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 .list-item::marker {
